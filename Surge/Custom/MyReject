@@ -1,0 +1,37 @@
+# 掌上小说广告屏蔽
+DOMAIN-SUFFIX,api.hzpmr.cn
+URL-REGEX,^http:\/\/api\.ywacn\.cn\/notification\/shelfMessage\?platform=ios&isfree=1&freeappid=1234491385$
+DOMAIN,http://api.ywacn.cn/favorite/book/top?isfree=1&freeappid=1234491385
+URL-REGEX,^http:\/\/api\.ywacn\.cn\/favorite\/book\/top\?isfree=1&freeappid=1234491385$
+URL-REGEX,^http:\/\/api\.ywacn\.cn\/advert\?platform=ios&position=all&isfree=1&freeappid=1234491385$
+URL-REGEX,^http:\/\/api\.hzpmr\.cn\/favorite\/book\/top\?isfree=1&freeappid=1234491385
+URL-REGEX,^http:\/\/api\.hzpmr\.cn\/splashes\/ios\?isfree=1&freeappid=1234491385$
+URL-REGEX,^http:\/\/api\.ywacn\.cn\/splashes\/ios\?isfree=1&freeappid=1234491385$
+
+# Twitterrific 5 for Twitter顶部广告
+DOMAIN-SUFFIX,iconfactory.com
+
+# 知音漫客去广告
+DOMAIN-SUFFIX,adserver-ad.321mh.com
+
+#============================================================================================
+
+// 来源：https://github.com/onewayticket255/Surge-Script
+# > Zhihu
+DOMAIN,crash2.zhihu.com
+DOMAIN,vdn.vzuu.com
+DOMAIN,sugar.zhihu.com,REJECT
+AND,((USER-AGENT,ZhihuHybrid*), (DOMAIN,api.zhihu.com))
+DOMAIN,unpkg.zhimg.com
+DOMAIN,lens.zhihu.com
+
+# > BiliBili
+DOMAIN,thirdparty.biliapi.com
+DOMAIN,data.bilibili.com
+DOMAIN,cm.bilibili.com
+DOMAIN,miniapp.bilibili.com
+
+
+#============================================================================================
+# > 屏蔽人人视频更新提示
+URL-REGEX,"^https?:\/\/api\.rr\.tv\/.*(getAll|Version)$"
