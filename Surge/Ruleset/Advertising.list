@@ -662,11 +662,6 @@ URL-REGEX,^https?:\/\/dili\.bdatu\.com\/jiekou\/ad\/
 URL-REGEX,^https?:\/\/wap\.ngchina\.cn\/news\/adverts\/
 
 # O
-# > ofo
-URL-REGEX,^https?:\/\/supportda\.ofo\.com\/adaction\?
-URL-REGEX,^https?:\/\/ma\.ofo\.com\/ads\/
-URL-REGEX,^https?:\/\/activity2\.api\.ofo\.com\/ofo\/Api\/v2\/ads
-URL-REGEX,^https?:\/\/ma\.ofo\.com\/adImage\/
 # > Oray
 URL-REGEX,^https?:\/\/slapi.oray.net/client/ad
 
