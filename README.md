@@ -1,5 +1,5 @@
 # MyProfile
 Profile for Surge and QuantumultX
 
-#Thanks
+# Thanks
 Clone from [ConnersHua](https://github.com/ConnersHua)
