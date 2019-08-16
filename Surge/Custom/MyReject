@@ -1,4 +1,4 @@
-# 掌上小说广告屏蔽
+# > 掌上小说广告屏蔽
 DOMAIN-SUFFIX,api.hzpmr.cn
 URL-REGEX,^http:\/\/api\.ywacn\.cn\/notification\/shelfMessage\?platform=ios&isfree=1&freeappid=1234491385$
 DOMAIN,http://api.ywacn.cn/favorite/book/top?isfree=1&freeappid=1234491385
@@ -8,10 +8,10 @@ URL-REGEX,^http:\/\/api\.hzpmr\.cn\/favorite\/book\/top\?isfree=1&freeappid=1234
 URL-REGEX,^http:\/\/api\.hzpmr\.cn\/splashes\/ios\?isfree=1&freeappid=1234491385$
 URL-REGEX,^http:\/\/api\.ywacn\.cn\/splashes\/ios\?isfree=1&freeappid=1234491385$
 
-# Twitterrific 5 for Twitter顶部广告
+# > Twitterrific 5 for Twitter顶部广告
 DOMAIN-SUFFIX,iconfactory.com
 
-# 知音漫客去广告
+# > 知音漫客去广告
 DOMAIN-SUFFIX,adserver-ad.321mh.com
 
 #============================================================================================
