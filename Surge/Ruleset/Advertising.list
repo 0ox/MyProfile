@@ -1,9 +1,13 @@
 # Advertising 广告（以及隐私追踪）
+# > ----My Rules----
+# > Twitterrific 5 for Twitter顶部广告
+DOMAIN-SUFFIX,iconfactory.com
+# > ----My Rules----
+
 # > General
 DOMAIN-KEYWORD,adservice
 DOMAIN-KEYWORD,analytics
 DOMAIN-KEYWORD,analysis
-
 DOMAIN-SUFFIX,42trck.com
 DOMAIN-SUFFIX,51.la
 DOMAIN-SUFFIX,adcolony.com
@@ -74,7 +78,6 @@ DOMAIN-SUFFIX,voicefive.com
 DOMAIN-SUFFIX,vungle.com
 DOMAIN-SUFFIX,wedolook.com
 DOMAIN-SUFFIX,xdrig.com
-
 DOMAIN-SUFFIX,ad.daum.net
 DOMAIN-SUFFIX,track.xiachufang.com
 DOMAIN,abema-adx.ameba.jp
