@@ -1,5 +1,13 @@
 # (ForeignMedia)
 # (Video)
+
+# > ----My Rule----
+# PayPal
+USER-AGENT,PayPal*
+DOMAIN-KEYWORD,paypal
+DOMAIN-SUFFIX,paypal.com
+# > ----end----
+
 # > All4
 USER-AGENT,All4*
 DOMAIN-SUFFIX,c4assets.com
