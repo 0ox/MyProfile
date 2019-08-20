@@ -1,14 +1,5 @@
 # (DNS Cache Pollution Protection)
-# > Google
-DOMAIN-SUFFIX,appspot.com
-DOMAIN-SUFFIX,blogger.com
-DOMAIN-SUFFIX,getoutline.org
-DOMAIN-SUFFIX,gvt0.com
-DOMAIN-SUFFIX,gvt1.com
-DOMAIN-SUFFIX,gvt3.com
-DOMAIN-SUFFIX,xn--ngstr-lra8j.com
-DOMAIN-KEYWORD,google
-DOMAIN-KEYWORD,blogspot
+# > ----My Rules----
 # > Youtube
 USER-AGENT,com.google.ios.youtube*
 USER-AGENT,YouTube*
@@ -22,6 +13,17 @@ DOMAIN-SUFFIX,scdn.co
 DOMAIN-SUFFIX,spotify.com
 DOMAIN-SUFFIX,spoti.fi
 IP-CIDR,35.186.224.47/32,no-resolve
+# > ----End----
+# > Google
+DOMAIN-SUFFIX,appspot.com
+DOMAIN-SUFFIX,blogger.com
+DOMAIN-SUFFIX,getoutline.org
+DOMAIN-SUFFIX,gvt0.com
+DOMAIN-SUFFIX,gvt1.com
+DOMAIN-SUFFIX,gvt3.com
+DOMAIN-SUFFIX,xn--ngstr-lra8j.com
+DOMAIN-KEYWORD,google
+DOMAIN-KEYWORD,blogspot
 # > Microsoft
 DOMAIN-SUFFIX,onedrive.live.com
 DOMAIN-SUFFIX,xboxlive.com
