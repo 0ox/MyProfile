@@ -1,9 +1,4 @@
 # Advertising 广告（以及隐私追踪）
-# > ----My Rules----
-# > Twitterrific 5 for Twitter顶部广告
-DOMAIN-SUFFIX,iconfactory.com
-# > ----My Rules----
-
 # > General
 DOMAIN-KEYWORD,adservice
 DOMAIN-KEYWORD,analytics
