@@ -1,5 +1,7 @@
 # (DNS Cache Pollution Protection)
 # > ----My Rules----
+# > streamable
+DOMAIN-SUFFIX,streamable.com
 # > Youtube
 USER-AGENT,com.google.ios.youtube*
 USER-AGENT,YouTube*
