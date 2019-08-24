@@ -2,12 +2,6 @@
 # > ----My Rules----
 # > streamable
 DOMAIN-SUFFIX,streamable.com
-# > Youtube
-USER-AGENT,com.google.ios.youtube*
-USER-AGENT,YouTube*
-DOMAIN-SUFFIX,googlevideo.com
-DOMAIN-SUFFIX,youtube.com
-DOMAIN,youtubei.googleapis.com
 # > Spotify
 USER-AGENT,Spotify*
 DOMAIN-SUFFIX,pscdn.co
