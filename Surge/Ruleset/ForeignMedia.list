@@ -1,12 +1,7 @@
 # (ForeignMedia)
 # (Video)
 
-# > ----My Rule----
-# > PayPal
-USER-AGENT,PayPal*
-DOMAIN-KEYWORD,paypal
-DOMAIN-SUFFIX,paypal.com
-    
+# > ----My Rule----   
 # > AppleNews
 USER-AGENT,AppleNews*
 USER-AGENT,com.apple.news*
