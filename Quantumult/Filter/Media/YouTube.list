@@ -1,0 +1,6 @@
+# > Youtube
+USER-AGENT,com.google.ios.youtube*,ForeignMedia
+USER-AGENT,YouTube*,ForeignMedia
+DOMAIN-SUFFIX,googlevideo.com,ForeignMedia
+DOMAIN-SUFFIX,youtube.com,ForeignMedia
+DOMAIN,youtubei.googleapis.com,ForeignMedia
