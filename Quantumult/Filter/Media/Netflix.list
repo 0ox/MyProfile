@@ -1,0 +1,18 @@
+# > Netflix
+USER-AGENT,Argo*,ForeignMedia
+DOMAIN-SUFFIX,netflix.com,ForeignMedia
+DOMAIN-SUFFIX,netflix.net,ForeignMedia
+DOMAIN-SUFFIX,nflxext.com,ForeignMedia
+DOMAIN-SUFFIX,nflximg.com,ForeignMedia
+DOMAIN-SUFFIX,nflximg.net,ForeignMedia
+DOMAIN-SUFFIX,nflxso.net,ForeignMedia
+DOMAIN-SUFFIX,nflxvideo.net,ForeignMedia
+IP-CIDR,23.246.0.0/18,ForeignMedia
+IP-CIDR,37.77.184.0/21,ForeignMedia
+IP-CIDR,45.57.0.0/17,ForeignMedia
+IP-CIDR,64.120.128.0/17,ForeignMedia
+IP-CIDR,66.197.128.0/17,ForeignMedia
+IP-CIDR,108.175.32.0/20,ForeignMedia
+IP-CIDR,192.173.64.0/18,ForeignMedia
+IP-CIDR,198.38.96.0/19,ForeignMedia
+IP-CIDR,198.45.48.0/20,ForeignMedia
