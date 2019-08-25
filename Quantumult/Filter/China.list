@@ -2,6 +2,13 @@
 # > 360
 DOMAIN-SUFFIX,qhres.com,DIRECT
 DOMAIN-SUFFIX,qhimg.com,DIRECT
+# > 
+# > AcFun
+USER-AGENT,AcFun*,DIRECT
+HOST-SUFFIX,acfun.cn,DIRECT
+HOST-SUFFIX,acfun.com,DIRECT
+HOST-SUFFIX,acfun.tv,DIRECT
+HOST-SUFFIX,aixifan.com,DIRECT
 # > Akamai
 DOMAIN-SUFFIX,akadns.net,DIRECT
 # DOMAIN-SUFFIX,akamai.net,DIRECT
@@ -46,6 +53,7 @@ DOMAIN-SUFFIX,biliapi.com,DIRECT
 DOMAIN-SUFFIX,biliapi.net,DIRECT
 DOMAIN-SUFFIX,bilibili.com,DIRECT
 DOMAIN-SUFFIX,hdslb.com,DIRECT
+
 # > Blizzard
 DOMAIN-SUFFIX,blizzard.com,DIRECT
 DOMAIN-SUFFIX,battle.net,DIRECT
