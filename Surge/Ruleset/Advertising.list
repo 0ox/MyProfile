@@ -325,13 +325,24 @@ URL-REGEX,^https?:\/\/pic1cdn\.cmbchina\.com\/appinitads\/
 URL-REGEX,^https?:\/\/www\.cmbc\.com\.cn\/m\/image\/loadingpage\/
 # > China Mobile
 URL-REGEX,^https?:\/\/clientaccess\.10086\.cn\/biz-orange\/DN\/init\/startInit
+URL-REGEX,^https?:\/\/app\.10086\.cn\/biz-orange\/DN\/(findSale|homeSale)\/getsaleAdver
 # > China Unicom
 URL-REGEX,^https?:\/\/m\.client\.10010\.com\/mobileService\/customer\/accountListData\.htm
 URL-REGEX,^https?:\/\/m\.client\.10010\.com\/uniAdmsInterface\/getWelcomeAd
+URL-REGEX,^https?:\/\/m\.client\.10010\.com\/mobileService\/(activity|customer)\/(accountListData|get_client_adv|get_startadv)
+URL-REGEX,^https?:\/\/m\.client\.10010\.com\/uniAdmsInterface\/(getHomePageAd|getWelcomeAd)
+URL-REGEX,^https?:\/\/m1\.ad\.10010\.com\/noticeMag\/images\/imageUpload\/2\d{3}
+URL-REGEX,^https?:\/\/res\.mall\.10010\.cn\/mall\/common\/js\/fa\.js?referer=
 # > 曹操出行
 URL-REGEX,^https?:\/\/cap\.caocaokeji\.cn\/advert-bss\/
 
 # D
+# > 当当（zhuangzhuang）
+URL-REGEX,^https?:\/\/img\d{2}\.ddimg\.cn\/upload_img\/.+\/670x900
+URL-REGEX,^https?:\/\/img\d{2}\.ddimg\.cn\/upload_img\/.+\/750x1064
+URL-REGEX,^https?:\/\/mapi\.dangdang\.com\/index\.php\?action=init&user_client=iphone
+URL-REGEX,^https?:\/\/mapi\.dangdang\.com\/index\.php\?action=init
+URL-REGEX,^https?:\/\/e\.dangdang\.com\/media\/api.+\?action=getDeviceStartPage
 # > 豆瓣
 # (154.8.131.* 疑似自签证书不可验证)
 URL-REGEX,^https?:\/\/.+\/v2\/app_ads\/
@@ -355,6 +366,11 @@ URL-REGEX,^https?:\/\/staticlive\.douyucdn\.cn\/.+\/getStartSend
 URL-REGEX,^https?:\/\/staticlive\.douyucdn\.cn\/upload\/signs\/
 
 # E
+# > 饿了么（zhuangzhuang）
+URL-REGEX,^https?:\/\/elemecdn\.com\/.+\/sitemap
+URL-REGEX,^https?:\/\/fuss10\.elemecdn\.com\/.+\/w\/640\/h\/\d{3,4}
+URL-REGEX,^https?:\/\/fuss10\.elemecdn\.com\/.+\/w\/750\/h\/\d{3,4}
+URL-REGEX,^https?:\/\/fuss10\.elemecdn\.com\/.+\.mp4
 # > eLong(123.59.31.1,119.18.193.135)
 URL-REGEX,^https?:\/\/mobile-api2011\.elong\.com\/(adgateway|adv)\/
 URL-REGEX,^https?:\/\/(2(5[0-5]{1}|[0-4]\d{1})|[0-1]?\d{1,2})(\.(2(5[0-5]{1}|[0-4]\d{1})|[0-1]?\d{1,2})){3}\/(adgateway|adv)\/
