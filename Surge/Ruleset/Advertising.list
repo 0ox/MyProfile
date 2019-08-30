@@ -274,7 +274,6 @@ URL-REGEX,^https?:\/\/gw\.alicdn\.com\/mt\/
 URL-REGEX,^https?:\/\/gw\.alicdn\.com\/tps\/.+\d{3,4}-\d{4}
 URL-REGEX,^https?:\/\/acs\.m\.taobao\.com\/gw\/mtop\.trip\.activity\.querytmsresources\/
 URL-REGEX,^https?:\/\/acs\.m\.taobao\.com\/gw\/mtop\.alimusic\.common\.mobileservice\.startinit\/
-URL-REGEX,
 # >> 口碑
 URL-REGEX,^https?:\/\/render\.alipay\.com\/p\/s\/h5data\/prod\/spring-festival-2019-h5data\/popup-h5data\.json
 URL-REGEX,^https?:\/\/acs\.m\.taobao\.com\/gw\/mtop\.o2o\.ad\.gateway\.get\/
