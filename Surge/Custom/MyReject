@@ -129,6 +129,9 @@ URL-REGEX,^https?:\/\/mtteve\.beacon\.qq\.com\/analytics
 URL-REGEX,^https?:\/\/splashqqlive\.gtimg\.com\/website\/\d{6}
 URL-REGEX,^https?:\/\/szextshort\.weixin\.qq\.com\/cgi-bin\/mmoc-bin\/ad\/
 # > 喜马拉雅+zhuangzhuang
+URL-REGEX,^https?:\/\/adse\.ximalaya\.com\/ting\/feed\?appid=
+URL-REGEX,^https?:\/\/adse\.ximalaya\.com\/ting\/loading\?appid=
+URL-REGEX,^https?:\/\/adse\.ximalaya\.com\/ting\?appid=
 URL-REGEX,^https?:\/\/fdfs\.xmcdn\.com\/group21\/M03\/E7\/3F\/
 URL-REGEX,^https?:\/\/fdfs\.xmcdn\.com\/group21\/M0A\/95\/3B\/
 URL-REGEX,^https?:\/\/fdfs\.xmcdn\.com\/group22\/M00\/92\/FF\/
