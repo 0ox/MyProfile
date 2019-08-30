@@ -303,7 +303,6 @@ URL-REGEX,^https?:\/\/tb2\.bdstatic\.com\/tb\/mobile\/spb\/widget\/jump
 URL-REGEX,^https?:\/\/afd\.baidu\.com\/afd\/entry
 URL-REGEX,^https?:\/\/als\.baidu\.com\/clog\/clog
 URL-REGEX,^https?:\/\/baichuan\.baidu\.com\/rs\/adpmobile\/launch
-URL-REGEX,^https?://www.baidu.com\/\?action=static&ms=1&version=css_page_2@0.*
 # >> 百度地图 (153.3.236.81,180.101.212.22)
 URL-REGEX,^https?:\/\/.+\/client\/phpui2\/
 # > ByteDance
@@ -332,7 +331,6 @@ URL-REGEX,^https?:\/\/m\.client\.10010\.com\/uniAdmsInterface\/getWelcomeAd
 URL-REGEX,^https?:\/\/m\.client\.10010\.com\/mobileService\/(activity|customer)\/(accountListData|get_client_adv|get_startadv)
 URL-REGEX,^https?:\/\/m\.client\.10010\.com\/uniAdmsInterface\/(getHomePageAd|getWelcomeAd)
 URL-REGEX,^https?:\/\/m1\.ad\.10010\.com\/noticeMag\/images\/imageUpload\/2\d{3}
-URL-REGEX,^https?:\/\/res\.mall\.10010\.cn\/mall\/common\/js\/fa\.js?referer=
 # > 曹操出行
 URL-REGEX,^https?:\/\/cap\.caocaokeji\.cn\/advert-bss\/
 
@@ -409,7 +407,6 @@ URL-REGEX,^https?:\/\/games\.mobileapi\.hupu\.com\/.+\/(interfaceAdMonitor|inter
 # > +zhuangzhuang
 URL-REGEX,^https?:\/\/i1\.hoopchina\.com\.cn\/blogfile\/.+_\d{3}x\d{4}
 URL-REGEX,^https?:\/\/games\.mobileapi\.hupu\.com\/.+\/status\/init
-URL-REGEX,^https?:\/\/games\.mobileapi\.hupu\.com\/.+\/(search|interfaceAdMonitor|status|hupuBbsPm)/(hotkey|init|hupuBbsPm)\.
 # > 好好住
 URL-REGEX,^https?:\/\/api\.haohaozhu\.cn\/index\.php\/home\/AppInit\/getStartPhoto
 
@@ -488,7 +485,6 @@ URL-REGEX,^https?:\/\/g1\.163\.com\/madfeedback
 URL-REGEX,^https?:\/\/img1\.126\.net\/.+dpi=\w{7,8}
 URL-REGEX,^https?:\/\/img1\.126\.net\/channel14\/
 URL-REGEX,^https?:\/\/nex\.163\.com\/q
-URL-REGEX,^https?:\/\/p[^4](c)?\.music\.126\.net\/\w+==\/10995\d{13}\.jpg$
 URL-REGEX,^https?:\/\/oimage\w\d\.ydstatic\.com\/image\?.+=adpublish
 URL-REGEX,^https?:\/\/interface\.music\.163\.com\/eapi\/ad\/
 
@@ -550,9 +546,6 @@ URL-REGEX,^https?:\/\/szextshort\.weixin\.qq\.com\/cgi-bin\/mmoc-bin\/ad\/
 # > 喜马拉雅
 URL-REGEX,^https?:\/\/.+\/api\/v\d\/adRealTime
 # > +zhuangzhuang
-URL-REGEX,^https?:\/\/adse\.ximalaya\.com\/ting\/feed\?appid=
-URL-REGEX,^https?:\/\/adse\.ximalaya\.com\/ting\/loading\?appid= 
-URL-REGEX,^https?:\/\/adse\.ximalaya\.com\/ting\?appid=
 URL-REGEX,^https?:\/\/fdfs\.xmcdn\.com\/group21\/M03\/E7\/3F\/
 URL-REGEX,^https?:\/\/fdfs\.xmcdn\.com\/group21\/M0A\/95\/3B\/
 URL-REGEX,^https?:\/\/fdfs\.xmcdn\.com\/group22\/M00\/92\/FF\/
