@@ -20,8 +20,6 @@ DOMAIN-SUFFIX,adserver-ad.321mh.com
 # > Zhihu
 DOMAIN,crash2.zhihu.com
 DOMAIN,vdn.vzuu.com
-DOMAIN,sugar.zhihu.com,REJECT
-AND,((USER-AGENT,ZhihuHybrid*), (DOMAIN,api.zhihu.com))
 DOMAIN,unpkg.zhimg.com
 DOMAIN,lens.zhihu.com
 
@@ -34,7 +32,7 @@ DOMAIN,miniapp.bilibili.com
 
 #============================================================================================
 # > 屏蔽人人视频更新提示
-URL-REGEX,"^https?:\/\/api\.rr\.tv\/.*(getAll|Version)$"
+URL-REGEX,^https?:\/\/api\.rr\.tv\/.*(getAll|Version)$
 
 #============================================================================================
 # > Alibaba+zhuangzhuang 
@@ -129,6 +127,7 @@ URL-REGEX,^https?:\/\/mtteve\.beacon\.qq\.com\/analytics
 URL-REGEX,^https?:\/\/splashqqlive\.gtimg\.com\/website\/\d{6}
 URL-REGEX,^https?:\/\/szextshort\.weixin\.qq\.com\/cgi-bin\/mmoc-bin\/ad\/
 # > 喜马拉雅+zhuangzhuang
+URL-REGEX,^https?:\/\/adse.+\.com\/[a-z]{4}\/loading\?appid=
 URL-REGEX,^https?:\/\/adse\.ximalaya\.com\/ting\/feed\?appid=
 URL-REGEX,^https?:\/\/adse\.ximalaya\.com\/ting\/loading\?appid=
 URL-REGEX,^https?:\/\/adse\.ximalaya\.com\/ting\?appid=
