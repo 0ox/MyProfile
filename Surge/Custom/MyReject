@@ -127,22 +127,15 @@ URL-REGEX,^https?:\/\/mtteve\.beacon\.qq\.com\/analytics
 URL-REGEX,^https?:\/\/splashqqlive\.gtimg\.com\/website\/\d{6}
 URL-REGEX,^https?:\/\/szextshort\.weixin\.qq\.com\/cgi-bin\/mmoc-bin\/ad\/
 # > 喜马拉雅+zhuangzhuang
+DOMAIN-SUFFIX,location.ximalaya.com
+DOMAIN-SUFFIX,adse.ximalaya.com
+DOMAIN-SUFFIX,xdcs-collector.ximalaya.com
+DOMAIN-SUFFIX,xdcs-collector.ximalaya.com
+DOMAIN-SUFFIX,xdcs-collector.ximalaya.com
 URL-REGEX,^https?:\/\/adse.+\.com\/[a-z]{4}\/loading\?appid=
 URL-REGEX,^https?:\/\/adse\.ximalaya\.com\/ting\/feed\?appid=
 URL-REGEX,^https?:\/\/adse\.ximalaya\.com\/ting\/loading\?appid=
 URL-REGEX,^https?:\/\/adse\.ximalaya\.com\/ting\?appid=
-URL-REGEX,^https?:\/\/fdfs\.xmcdn\.com\/group21\/M03\/E7\/3F\/
-URL-REGEX,^https?:\/\/fdfs\.xmcdn\.com\/group21\/M0A\/95\/3B\/
-URL-REGEX,^https?:\/\/fdfs\.xmcdn\.com\/group22\/M00\/92\/FF\/
-URL-REGEX,^https?:\/\/fdfs\.xmcdn\.com\/group22\/M05\/66\/67\/
-URL-REGEX,^https?:\/\/fdfs\.xmcdn\.com\/group22\/M07\/76\/54\/
-URL-REGEX,^https?:\/\/fdfs\.xmcdn\.com\/group23\/M01\/63\/F1\/
-URL-REGEX,^https?:\/\/fdfs\.xmcdn\.com\/group23\/M04\/E5\/F6\/
-URL-REGEX,^https?:\/\/fdfs\.xmcdn\.com\/group23\/M07\/81\/F6\/
-URL-REGEX,^https?:\/\/fdfs\.xmcdn\.com\/group23\/M0A\/75\/AA\/
-URL-REGEX,^https?:\/\/fdfs\.xmcdn\.com\/group24\/M03\/E6\/09\/
-URL-REGEX,^https?:\/\/fdfs\.xmcdn\.com\/group24\/M07\/C4\/3D\/
-URL-REGEX,^https?:\/\/fdfs\.xmcdn\.com\/group25\/M05\/92\/D1\/
 # > Youku+zhuangzhuang
 URL-REGEX,^https?:\/\/ad\.api\.3g\.youku\.com
 URL-REGEX,^https?:\/\/(iyes|(api|hd)\.mobile)\.youku\.com\/(adv|common\/v3\/hudong\/new)
