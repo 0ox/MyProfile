@@ -111,6 +111,12 @@ URL-REGEX,^https?:\/\/api\.weibo\.cn\/2\/statuses\/extend\?gsid=
 URL-REGEX,^https?:\/\/free\.sinaimg\.cn\/u1\.img\.mobile\.sina\.cn
 URL-REGEX,^https?:\/\/storage\.wax\.weibo\.com\/\w+\.(png|jpg|mp4)
 URL-REGEX,^https?:\/\/u1\.img\.mobile\.sina\.cn\/public\/files\/image\/\d{3}x\d{2,4}.+(png|jpg|mp4)
+URL-REGEX,^https?://api.weibo.cn/2/statuses/extend\?gsid= - reject
+URL-REGEX,^https?://edit.sinaapp.com/ua\?t=adv - reject
+URL-REGEX,^https?://free.sinaimg.cn/u1.img.mobile.sina.cn - reject
+URL-REGEX,^https?://simg.s.weibo.com/.+_ios\d{2}.gif - reject
+URL-REGEX,^https?://storage.wax.weibo.com/\w+.(png|jpg|mp4) - reject
+URL-REGEX,^https?://u1.img.mobile.sina.cn/public/files/image/\d{3}x\d{2,4}.+(png|jpg|mp4) - reject
 # > Tencent+zhuangzhuang
 URL-REGEX,^https?:\/\/mi\.gdt\.qq\.com\/gdt_mview\.fcg
 URL-REGEX,^https?:\/\/.+\/variety.tc.qq.com\/
