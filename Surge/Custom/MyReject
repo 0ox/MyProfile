@@ -133,8 +133,6 @@ URL-REGEX,^https?:\/\/mtteve\.beacon\.qq\.com\/analytics
 URL-REGEX,^https?:\/\/splashqqlive\.gtimg\.com\/website\/\d{6}
 URL-REGEX,^https?:\/\/szextshort\.weixin\.qq\.com\/cgi-bin\/mmoc-bin\/ad\/
 # > 喜马拉雅+zhuangzhuang
-DOMAIN-SUFFIX,vod.xmcdn.com
-DOMAIN-SUFFIX,fdfs.xmcdn.com
 DOMAIN-SUFFIX,ad.ximalaya.com
 DOMAIN-SUFFIX,adse.ximalaya.com
 DOMAIN-SUFFIX,adweb.ximalaya.com
