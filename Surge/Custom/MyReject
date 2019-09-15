@@ -71,14 +71,6 @@ URL-REGEX,^https?:\/\/elemecdn\.com\/.+\/sitemap
 URL-REGEX,^https?:\/\/fuss10\.elemecdn\.com\/.+\/w\/640\/h\/\d{3,4}
 URL-REGEX,^https?:\/\/fuss10\.elemecdn\.com\/.+\/w\/750\/h\/\d{3,4}
 URL-REGEX,^https?:\/\/fuss10\.elemecdn\.com\/.+\.mp4
-# > Google+zhuangzhuang
-URL-REGEX,^https?:\/\/.+\.googlevideo\.com\/ptracking\?pltype=adhost
-URL-REGEX,^https?:\/\/.+\.youtube\.com\/get_midroll
-URL-REGEX,^https?:\/\/m\.youtube\.com\/_get_ads
-URL-REGEX,^https?:\/\/pagead2\.googlesyndication\.com\/pagead\/
-URL-REGEX,^https?:\/\/youtubei\.googleapis\.com/.+ad_break
-URL-REGEX,^https?:\/\/s\.youtube\.com\/api\/stats\/watchtime?adformat
-URL-REGEX,^https?:\/\/s0\.2mdn\.net\/ads\/
 URL-REGEX,^https?:\/\/stats\.tubemogul\.com\/stats\/
 # > 虎扑+zhuangzhuang
 URL-REGEX,^https?:\/\/i1\.hoopchina\.com\.cn\/blogfile\/.+_\d{3}x\d{4}
