@@ -1,4 +1,18 @@
 # China Area Network
+# 360
+URL-REGEX,(.+\.|^)(360|so)\.(cn|com)
+# Tencent Weiyun
+PROCESS-NAME,Weiyun
+# Mac Download
+PROCESS-NAME,aria2c
+PROCESS-NAME,fdm
+PROCESS-NAME,Folx
+PROCESS-NAME,NetTransport
+PROCESS-NAME,Thunder
+PROCESS-NAME,Transmission
+PROCESS-NAME,uTorrent
+PROCESS-NAME,WebTorrent
+PROCESS-NAME,WebTorrent Helper
 # > 定位相关
 USER-AGENT,com.apple.geod*,DIRECT
 USER-AGENT,com.apple.Maps,DIRECT
@@ -73,6 +87,7 @@ URL-REGEX,(.+.|^)(360|so|qihoo|360safe|qhimg|360totalsecurity|yunpan).(cn|com)
 URL-REGEX,(.+.)?(torrent|announce.php?passkey=|tracker|BitTorrent|bt_key|ed2k|find_node|get_peers|info_hash|magnet:|peer_id=|sandai|Thunder|XLLiveUD|xunlei)(..+)?
 # >  迅雷
 URL-REGEX,(.?)(xunlei|sandai|Thunder|XLLiveUD)(.)
+PROCESS-NAME,DownloadService
 # >  360有毒服务
 URL-REGEX,(.+\.|^)(360|so)\.(cn|com)
 # >  Speedtest
