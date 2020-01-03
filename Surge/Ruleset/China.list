@@ -172,6 +172,13 @@ DOMAIN-SUFFIX,mgtv.com
 DOMAIN-SUFFIX,iqiyi.com
 DOMAIN-SUFFIX,iqiyipic.com
 DOMAIN-SUFFIX,71.am.com
+USER-AGENT,QIYI*
+USER-AGENT,iQiYi*
+DOMAIN-KEYWORD,qiyi
+DOMAIN-SUFFIX,qy.net
+IP-CIDR,101.227.0.0/16,no-resolve
+IP-CIDR,101.224.0.0/13,no-resolve
+IP-CIDR,119.176.0.0/12,no-resolve
 # > JD
 DOMAIN-SUFFIX,jd.com
 DOMAIN-SUFFIX,jd.hk
@@ -197,10 +204,6 @@ DOMAIN-SUFFIX,visualstudio.com
 DOMAIN-SUFFIX,msecnd.net
 DOMAIN,officecdn-microsoft-com.akamaized.net
 # > NetEase
-USER-AGENT,NeteaseMusic*
-USER-AGENT,%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90*
-DOMAIN-SUFFIX,163.com
-DOMAIN-SUFFIX,126.net
 DOMAIN-SUFFIX,127.net
 DOMAIN-SUFFIX,163yun.com
 DOMAIN-SUFFIX,lofter.com
