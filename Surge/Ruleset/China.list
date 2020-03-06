@@ -168,10 +168,7 @@ DOMAIN-SUFFIX,21cn.com
 # > HunanTV
 DOMAIN-SUFFIX,hitv.com
 DOMAIN-SUFFIX,mgtv.com
-# > iQiyi
-DOMAIN-SUFFIX,iqiyi.com
-DOMAIN-SUFFIX,iqiyipic.com
-DOMAIN-SUFFIX,71.am.com
+# > IQIYI
 USER-AGENT,QIYI*
 USER-AGENT,iQiYi*
 DOMAIN-KEYWORD,qiyi
