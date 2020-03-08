@@ -60,10 +60,8 @@ DOMAIN,locdrop.query.yahoo.com,REJECT
 DOMAIN-SUFFIX,comet.yahoo.com,REJECT
 DOMAIN-SUFFIX,gemini.yahoo.com,REJECT
 DOMAIN,analytics.query.yahoo.com,REJECT
-
 # > UA
 USER-AGENT,BaiduWallet*,REJECT
-
 # >  BT Rule For Surge
 # >  Mac Download
 PROCESS-NAME,aria2c
@@ -169,6 +167,9 @@ DOMAIN-SUFFIX,21cn.com
 DOMAIN-SUFFIX,hitv.com
 DOMAIN-SUFFIX,mgtv.com
 # > IQIYI
+DOMAIN-KEYWORD,iqiyipic
+DOMAIN-KEYWORD,iqiyi
+
 USER-AGENT,QIYI*
 USER-AGENT,iQiYi*
 DOMAIN-KEYWORD,qiyi
