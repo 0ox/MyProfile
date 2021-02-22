@@ -1,4 +1,5 @@
-const aqicnToken = 'fd42cf0c2c2acb686f7baf165e5401ba2cfe43f5' //you'd better replace yourself aqicnToken
+//const aqicnToken = 'fd42cf0c2c2acb686f7baf165e5401ba2cfe43f5' 
+const aqicnToken = '2bfa2ec166ee49d32ceae9f82dea52702bf0eb42' //you'd better replace yourself aqicnToken
 const AirQualityStandard = {
 	CN: 'HJ6332012.1',
 	US: 'EPA_NowCast.1'
