@@ -1,0 +1,7 @@
+#!name=iOS_Weather_AQI_Standard
+#!desc=Replace the source of weather aqi
+
+[Script]
+http-request ^https://weather-data.apple.com/v1/weather/[\w-]+/[0-9]+\.[0-9]+/[0-9]+\.[0-9]+\?, requires-body=true, script-path=https://raw.githubusercontent.com/0ox/MyProfile/master/Surge/JavaScript/US-AQI.js
+[MITM]
+hostname = weather-data.apple.com
