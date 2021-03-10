@@ -11,8 +11,6 @@ USER-AGENT,AVOS*,REJECT-TINYGIF
 URL-REGEX,https?://www.zhihu.com/api/v4/mcn/,REJECT
 URL-REGEX,https?://api.zhihu.com/(ab|adx|xen|club|fringe|zst|commercial|ad-style-service|market/popover|search/(top|tab|preset)|.*(guide|recommendations|extended|featured-comment-ad)),REJECT
 AND,((USER-AGENT,osee2*), (NOT,((DOMAIN-SUFFIX,zhihu.com))), (NOT,((DOMAIN-SUFFIX,zhimg.com)))),REJECT-TINYGIF
-# SMZDM
-URL-REGEX,^https?:\/\/(app-)?api\.smzdm\.com\/(v\d\/)?util\/(loading|banner),REJECT
 
 [Script]
 # Bilibili
@@ -32,8 +30,6 @@ http-response ^https?://(sdk|wb)app\.uve\.weibo\.com(/interface/sdk/sdkad.php|/w
 http-response ^https?://m?api\.weibo\.c(n|om)/2/(statuses/(unread|extend|positives/get|(friends|video)(/|_)(mix)?timeline)|stories/(video_stream|home_list)|(groups|fangle)/timeline|profile/statuses|comments/build_comments|photo/recommend_list|service/picfeed|searchall|cardlist|page|!/(photos/pic_recommend_status|live/media_homelist)|video/tiny_stream_video_list|photo/info) requires-body=1,max-size=-1,script-path=https://raw.githubusercontent.com/yichahucha/surge/master/wb_ad.js
 #Wechat
 http-request ^https://mp\.weixin\.qq\.com/mp/getappmsgad script-path=https://raw.githubusercontent.com/scomper/Surge/master/Scripts/WeChat.js
-# SMZDM
-SMZDM.js = requires-body=1,max-size=-1,script-path=https://raw.githubusercontent.com/scomper/Surge/master/Scripts/SMZDM.js,pattern=^https?:\/\/(s|h(aojia|omepage)|(articl|baik)e)-api\.smzdm\.com\/(home|sou),type=http-response
 
 [MITM]
-hostname = %APPEND% api.zhihu.com, www.zhihu.com, www.bilibili.com, api.bilibili.com, app.bilibili.com, api.live.bilibili.com, api.weibo.cn, mapi.weibo.com, *.uve.weibo.com, mp.weixin.qq.com, *api.smzdm.com
+hostname = %APPEND% api.zhihu.com, www.zhihu.com, www.bilibili.com, api.bilibili.com, app.bilibili.com, api.live.bilibili.com, api.weibo.cn, mapi.weibo.com, *.uve.weibo.com, mp.weixin.qq.com
