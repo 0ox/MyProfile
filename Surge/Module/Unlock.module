@@ -1,5 +1,5 @@
 #!name=unlock
-#!desc=Unlock VSCO filter/TikTok/RRTV
+#!desc=Unlock VSCO/TikTok/RRTV
 
 [URL Rewrite]
 # tiktok解锁直播区域限制
