@@ -1,0 +1,8 @@
+#!name=demo
+#!desc=demo
+
+[Script]
+http-response ^https:\/\/api\.rr\.tv(\/user\/privilege\/list|\/ad\/getAll|\/rrtv-video\/v4plus\/season\/detail),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/0ox/MyProfile/master/Surge/JavaScript/rrtv.js
+
+[MITM]
+hostname = %INSERT% api.rr.tv
