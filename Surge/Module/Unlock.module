@@ -1,8 +1,9 @@
 #!name=Unlock Region
 #!desc=Unlock TikTok Region/VSCO
+#!system=ios
 
 [Rule]
-# 人人视频去广告
+# RRTV ad remove
 AND,((USER-AGENT,PUClient*), (NOT,((DOMAIN-SUFFIX,rr.tv)))),REJECT
 URL-REGEX,^https?:\/\/api\.rr\.tv\/(?:ad\/getAll$|storage/business/rootName/app/homePage),REJECT
 
@@ -14,11 +15,11 @@ URL-REGEX,^https?:\/\/api\.rr\.tv\/(?:ad\/getAll$|storage/business/rootName/app/
 (?<=\d\/\?\w{7}_\w{4}=)1[6-9]..(?=.?.?&) 18.4 307
 
 [Script]
-# VSCO
+# VSCO VIP unlock
 http-response ^https?:\/\/vsco\.co\/api\/subscriptions\/2.1\/user-subscriptions\/ requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/vsco.js
-# 人人视频
+# RRTV ad remove
 rrsp_video = type=http-response,requires-body=true,pattern=^https?:\/\/api\.rr\.tv\/watch\/v\d\/get_movie_info,script-path=https://Choler.github.io/Surge/Script/rrsp.js
 rrsp_banner = type=http-response,requires-body=true,pattern=^https?:\/\/api\.rr\.tv\/v\dplus\/index\/channel,script-path=https://Choler.github.io/Surge/Script/rrsp.js
 
 [MITM]
-hostname = %INSERT% vsco.co, *.tiktokv.com, *.byteoversea.com, *.tik-tokapi.com, api.rr.tv
+hostname = %INSERT%  api.rr.tv, vsco.co, *.tiktokv.com, *.byteoversea.com, *.tik-tokapi.com
