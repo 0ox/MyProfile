@@ -1,0 +1,31 @@
+# Apple_API.list
+DOMAIN-SUFFIX,aaplimg.com
+DOMAIN-SUFFIX,apple.co
+DOMAIN-SUFFIX,apple.com
+DOMAIN-SUFFIX,apple-cloudkit.com
+DOMAIN-SUFFIX,appsto.re
+DOMAIN-SUFFIX,cdn-apple.com
+DOMAIN-SUFFIX,icloud.com
+DOMAIN-SUFFIX,icloud-content.com
+DOMAIN-SUFFIX,itunes.com
+DOMAIN-SUFFIX,me.com
+IP-CIDR,17.0.0.0/8,no-resolve
+IP-CIDR,63.92.224.0/19,no-resolve
+IP-CIDR,65.199.22.0/23,no-resolve
+IP-CIDR,139.178.128.0/18,no-resolve
+IP-CIDR,144.178.0.0/19,no-resolve
+IP-CIDR,144.178.36.0/22,no-resolve
+IP-CIDR,144.178.48.0/20,no-resolve
+IP-CIDR,192.35.50.0/24,no-resolve
+IP-CIDR,198.183.17.0/24,no-resolve
+IP-CIDR,205.180.175.0/24,no-resolve
+# Apple News
+## 此规则集应当在所有规则列表中置顶，且会让 Apple 的系统地图提供商由 高德地图 变为 TomTom
+## iPhone 和 蜂窝数据的 iPad 必须要开启飞行模式才可以使用，因为系统会检测 SIM 卡运营商
+## Mac 和 非蜂窝数据机型的 iPad 可以在使用规则片段后直接使用 Apple News
+
+DOMAIN-SUFFIX,ls.apple.com
+PROCESS-NAME,News
+USER-AGENT,AppleNews*
+USER-AGENT,News*
+DOMAIN,apple.comscoreresearch.com
