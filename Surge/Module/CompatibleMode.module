@@ -1,0 +1,6 @@
+#!name=CompatibleMode
+#!desc=Turn on CompatibleMode
+#!system=ios
+
+[General]
+compatibility-mode = 3
