@@ -1,8 +1,8 @@
 // Thanks to @Hackl0us(https://github.com/Hackl0us)
 const aqicnToken = '2bfa2ec166ee49d32ceae9f82dea52702bf0eb42' 
 const AirQualityStandard = {
-	CN: 'HJ6332012.2113',
-	US: 'EPA_NowCast.2113'
+	CN: 'HJ6332012.2115',
+	US: 'EPA_NowCast.2115'
 }
 
 const AirQualityLevel = {
