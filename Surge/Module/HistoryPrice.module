@@ -10,4 +10,4 @@
 京东比价 = type=http-response,pattern=^https?://trade-acs\.m\.taobao\.com/gw/mtop\.taobao\.detail\.getdetail,requires-body=1,max-size=0,script-path=https://service.2ti.st/QuanX/Script/jd_tb_price/main.js,script-update-interval=0
 
 [MITM]
-hostname = %INSERT% %APPEND% api.m.jd.com, trade-acs.m.taobao.com
+hostname = %APPEND% api.m.jd.com, trade-acs.m.taobao.com
