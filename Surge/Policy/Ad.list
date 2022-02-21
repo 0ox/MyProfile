@@ -1,3 +1,3 @@
 🈲 Ad-Block = REJECT
-🈯️ Ad-Pass = REJECT-DROP
+🈯️ Ad-Drop = REJECT-DROP
 🈚️ Ad-Gif = REJECT-TINYGIF
