@@ -2,8 +2,8 @@ let $ = nobyda();
 let run = EnvInfo();
 
 async function SwitchRegion(play) {
-	const Group = $.read('BiliArea_Policy') || '📺 DomesticMedia'; //Your blibli policy group name.
-	const CN = $.read('BiliArea_CN') || 'DIRECT'; //Your China sub-policy name.
+	const Group = $.read('BiliArea_Policy') || '📺 Bilibili'; //Your blibli policy group name.
+	const CN = $.read('BiliArea_CN') || '🍂 Domestic'; //Your China sub-policy name.
 	const TW = $.read('BiliArea_TW') || '🎖 台湾'; //Your Taiwan sub-policy name.
 	const HK = $.read('BiliArea_HK') || '🎫 香港'; //Your HongKong sub-policy name.
 	const DF = $.read('BiliArea_DF') || '🦁️ 狮城'; //Sub-policy name used after region is blocked(e.g. url 404)
