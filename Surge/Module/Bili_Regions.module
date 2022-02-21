@@ -1,9 +1,6 @@
 #!name=Bilibili regions
 #!desc=Bilibili regions auto switch
 
-[Proxy Group]
-📺 Bilibili = select, 🍂 Domestic,🎫 香港, 🎖 台湾, hidden=true
-
 [Rule]
 RULE-SET,https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/StreamingMedia/StreamingSE.list,📺 Bilibili
 
