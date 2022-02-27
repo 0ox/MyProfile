@@ -9,4 +9,4 @@ Bili Region = type=http-response,pattern=^https:\/\/ap(p|i)\.bili(bili|api)\.(co
 Bili Search = type=http-request,pattern=^https:\/\/ap(p|i)\.bili(bili|api)\.(com|net)\/x\/v\d\/search(\/type)?\?.+?%20(%E6%B8%AF|%E5%8F%B0|%E4%B8%AD)&,script-path=https://raw.githubusercontent.com/0ox/MyProfile/master/Surge/JavaScript/Regions.js
 
 [MITM]
-hostname = %APPEND% ap?.bilibili.com, ap?.biliapi.net
+hostname = %APPEND% ap?.biliapi.net
