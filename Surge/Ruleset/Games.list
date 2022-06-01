@@ -1,8 +1,11 @@
 # > ----My Rules----
+# > BattleNet
+DOMAIN-SUFFIX,battle.net
+DOMAIN-SUFFIX,easebar.com
 # > PokemonUnite
 DOMAIN-SUFFIX,pokemon-unitepgame.com
 # > SevenKnight2
 DOMAIN-SUFFIX,netmarble.com
-# > streamable
+# > Streamable
 DOMAIN-SUFFIX,streamable.com
 # > ----End----
