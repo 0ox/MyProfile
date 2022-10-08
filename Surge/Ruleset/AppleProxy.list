@@ -1,6 +1,28 @@
 # > Apple Proxy
+DOMAIN,api-glb-sea.smoot.apple.com
+DOMAIN,cvws.icloud-content.com
+DOMAIN,developer.apple.com
+DOMAIN,lookup-api.apple.com
+DOMAIN,sandbox.itunes.apple.com
+
+DOMAIN-SUFFIX,icloud.com
+DOMAIN-SUFFIX,itunes.com
 DOMAIN-SUFFIX,mzstatic.com
-DOMAIN-SUFFIX,podcasts.apple.com
-DOMAIN-SUFFIX,bookkeeper.itunes.apple.com
-DOMAIN-SUFFIX,play.itunes.apple.com
 DOMAIN-SUFFIX,xp.apple.com
+DOMAIN-SUFFIX,cdn-apple.com
+DOMAIN-SUFFIX,itunes.apple.com
+DOMAIN-SUFFIX,podcasts.apple.com
+DOMAIN-SUFFIX,icloud-content.com
+DOMAIN-SUFFIX,play.itunes.apple.com
+
+DOMAIN-SUFFIX,apple-dns.net
+DOMAIN-SUFFIX,apps.apple.com
+DOMAIN-SUFFIX,appsto.re
+DOMAIN-SUFFIX,blobstore.apple.com
+DOMAIN-SUFFIX,digicert.com
+
+
+PROCESS-NAME,lookupviewservice
+PROCESS-NAME,storedownloadd // Mac App Store
+USER-AGENT,com.apple.appstored* // iOS App Store
+DOMAIN-SUFFIX,lookup-api.apple.com // Dictionary
