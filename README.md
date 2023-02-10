@@ -49,3 +49,5 @@ Profiles for Surge and QuantumultX
 * [@toulanboy](https://github.com/toulanboy/scripts)
 
 * [@lowking](https://github.com/lowking/Scripts)
+
+* [🍟@VirgilClyne](https://github.com/VirgilClyne)
