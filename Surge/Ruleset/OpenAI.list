@@ -1,4 +1,4 @@
-# -> Rule For OpenAI
+# > Rule For OpenAI
 DOMAIN-SUFFIX,open-ai.com
 DOMAIN,cdn.auth0.com
 DOMAIN,openaiapi-site.azureedge.net
