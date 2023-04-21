@@ -1,4 +1,11 @@
 # > Rule For OpenAI
 DOMAIN-SUFFIX,open-ai.com
-DOMAIN,cdn.auth0.com
 DOMAIN,openaiapi-site.azureedge.net
+DOMAIN-SUFFIX,pay.openai.com
+DOMAIN-SUFFIX,chat.openai.com
+DOMAIN-SUFFIX,challenges.cloudflare.com
+DOMAIN-SUFFIX,auth0.openai.com
+DOMAIN-SUFFIX,platform.openai.com
+DOMAIN-SUFFIX,ai.com
+DOMAIN-SUFFIX,invoice.stripe.com
+DOMAIN-SUFFIX,stripe.com
