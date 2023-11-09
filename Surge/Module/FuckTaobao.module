@@ -4,11 +4,11 @@
 #!homepage = https://gitlab.com/lodepuly/vpn_tool/-/tree/main/Tool/Loon/Plugin
 
 [Rule]
-DOMAIN-SUFFIX, adashx.m.taobao.com, REJECT
-DOMAIN-SUFFIX, ossgw.alicdn.com, REJECT
-DOMAIN-SUFFIX, ems.youku.com, REJECT
-DOMAIN-SUFFIX, hudong.alicdn.com, REJECT
-DOMAIN-SUFFIX, h-adashx.ut.taobao.com, REJECT
+DOMAIN, adashx.m.taobao.com, REJECT
+DOMAIN, ossgw.alicdn.com, REJECT
+DOMAIN, ems.youku.com, REJECT
+DOMAIN, hudong.alicdn.com, REJECT
+DOMAIN, h-adashx.ut.taobao.com, REJECT
 
 [URL Rewrite]
 # 阿里巴巴 //acs.m.taobao.com, heic.alicdn.com, guide-acs.m.taobao.com, poplayer.template.alibaba.com
