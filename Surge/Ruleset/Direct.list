@@ -3,3 +3,4 @@ DOMAIN,cn.nikkei.com
 DOMAIN-SUFFIX,nat-test.com
 DOMAIN-SUFFIX,weatherol.cn
 DOMAIN-SUFFIX,mail.ustc.edu
+DOMAIN-SUFFIX,docofcard.com,DIRECT
