@@ -1,0 +1,10 @@
+#!name = FuckWechat
+#!desc = Enhance network experience.
+
+[Host]
+*.qq.com = server:119.29.29.29
+*.tencent.com = server:119.29.29.29
+*.weixin.com = server:119.29.29.29
+
+[Rule]
+DOMAIN-SUFFIX,weixin.qq.com,DIRECT,extended-matching
