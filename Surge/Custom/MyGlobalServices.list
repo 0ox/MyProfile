@@ -1,8 +1,7 @@
-# MyPersonal Global Service
+# My Personal Global Service
 
 DOMAIN-SUFFIX,1min.ai
 DOMAIN-SUFFIX,xn--ngstr-lra8j.com
-
 DOMAIN-SUFFIX,whoer.net,extended-matching
 DOMAIN-SUFFIX,anitabi.cn,extended-matching
 DOMAIN-SUFFIX,ipleak.net,extended-matching
@@ -10,7 +9,6 @@ DOMAIN-SUFFIX,juchats.com,extended-matching
 DOMAIN-SUFFIX,dnsleak.com,extended-matching
 DOMAIN-SUFFIX,dnsleaktest.org,extended-matching
 DOMAIN-SUFFIX,browserleaks.org,extended-matching
-
 
 # Google 中国服务
 DOMAIN-SUFFIX,services.googleapis.cn
