@@ -3,7 +3,5 @@
 # > 防止应用循环请求
 IP-CIDR,0.0.0.0/32,no-resolve
 DOMAIN-SUFFIX,leetcode-cn.com,extended-matching
-# > DNS Leaky
-DOMAIN-KEYWORD,leak,pre-matching,extended-matching
 # > Safari 防跳转
 DOMAIN,app-site-association.cdn-apple.com,pre-matching
