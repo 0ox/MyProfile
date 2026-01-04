@@ -3,7 +3,6 @@ DOMAIN,icloud.com
 DOMAIN,icloud-content.com
 DOMAIN,appleid.apple.com
 DOMAIN,idmsa.apple.com
-DOMAIN,push.apple.com
 
 # apple Podcast
 DOMAIN,podcasts.apple.com
