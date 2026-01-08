@@ -10,14 +10,7 @@
 # TOTAL: 268
 DOMAIN,push.apple.com
 DOMAIN,ain.bgm.tv
-DOMAIN,alt1-mtalk.google.com
-DOMAIN,alt2-mtalk.google.com
-DOMAIN,alt3-mtalk.google.com
-DOMAIN,alt4-mtalk.google.com
-DOMAIN,alt5-mtalk.google.com
-DOMAIN,alt6-mtalk.google.com
-DOMAIN,alt7-mtalk.google.com
-DOMAIN,alt8-mtalk.google.com
+DOMAIN,cn.nikkei.com
 DOMAIN,analytics.95516.com
 DOMAIN,analytics.strava.com
 DOMAIN,app.adjust.com
@@ -159,6 +152,7 @@ DOMAIN-SUFFIX,moecat.best
 DOMAIN-SUFFIX,msg.vg
 DOMAIN-SUFFIX,myanonamouse.net
 DOMAIN-SUFFIX,myds.me
+DOMAIN-SUFFIX,nat-test.com
 DOMAIN-SUFFIX,nanyangpt.com
 DOMAIN-SUFFIX,nature.com
 DOMAIN-SUFFIX,ncore.cc
@@ -196,9 +190,9 @@ DOMAIN-SUFFIX,tracking-protection.cdn.mozilla.net
 DOMAIN-SUFFIX,trontv.com
 DOMAIN-SUFFIX,uhdbits.org
 DOMAIN-SUFFIX,upaiyun.com
-DOMAIN-SUFFIX,weather-analytics-events.apple.com
-DOMAIN-SUFFIX,weather-data.apple.com
-DOMAIN-SUFFIX,weather-map.apple.com
+DOMAIN-SUFFIX,weatherol.cn
+DOMAIN-SUFFIX,mail.ustc.edu
+DOMAIN-SUFFIX,docofcard.com
 DOMAIN-SUFFIX,wiley.com
 DOMAIN-SUFFIX,xunlei.com
 DOMAIN-KEYWORD,anti-ad.net
