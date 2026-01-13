@@ -19,3 +19,7 @@ DOMAIN,podcasts.apple.com
 DOMAIN,podcasts.itunes.apple.com
 DOMAIN,itunes.apple.com
 DOMAIN,audio-ssl.itunes.apple.com
+
+# apple 
+USER-AGENT,com.apple.trustd*
+DOMAIN-KEYWORD,appledaily
