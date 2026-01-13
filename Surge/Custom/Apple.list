@@ -1,9 +1,3 @@
-# iCloud
-DOMAIN,icloud.com
-DOMAIN,icloud-content.com
-DOMAIN,appleid.apple.com
-DOMAIN,idmsa.apple.com
-
 # Apple Intelligence
 DOMAIN-SUFFIX,apple-relay.apple.com
 DOMAIN-SUFFIX,apple-relay.fastly-edge.com
